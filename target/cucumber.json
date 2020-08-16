@@ -1,0 +1,1102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.log(Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.log(Scenario.java:66)\r\n\tat steps.StepDefs.user_is_on_landing_page(StepDefs.java:22)\r\n\tat ✽.user is on landing page(file:///C:/Users/17033/new-eclipse-workspace/AllState/src/test/resources/features/greetingPageEntry.feature:4)\r\n",
+              "duration": 1729649700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "steps.StepDefs.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 994900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters zip code as \"22182\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"22182\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.StepDefs.user_enters_zip_code_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 995800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user unselects Auto insurance",
+            "match": {
+              "location": "steps.StepDefs.user_unselects_Auto_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user selects Home insurance and Life insurance",
+            "match": {
+              "location": "steps.StepDefs.user_selects_Home_insurance_and_Life_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on next button",
+            "match": {
+              "location": "steps.StepDefs.user_clicks_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is navigated to Get Started page",
+            "match": {
+              "location": "steps.StepDefs.user_is_navigated_to_Get_Started_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user navigates to Start page",
+            "match": {
+              "location": "steps.StepDefs.user_navigates_to_Start_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters firstname and lastname and selects suffix",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_enters_firstname_and_lastname_and_selects_suffix(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "suffix"
+                ]
+              },
+              {
+                "cells": [
+                  "Hasan",
+                  "Saran",
+                  "III"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on Next button",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_clicks_on_Next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user is navigated to greeting page with firstname \"Hasan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hasan\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.BasicEntrySteps.user_is_navigated_to_greeting_page_with_firstname(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T20:10:17.947Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3555427500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initializeDriverAndPages(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Enter valid birthdate, select gender and marital status",
+        "description": "",
+        "id": "enter-information;enter-valid-birthdate--select-gender-and-marital-status;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.attach([BLjava/lang/String;Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.attach(Scenario.java:57)\r\n\tat steps.Hooks.end(Hooks.java:39)\r\n",
+              "duration": 812370000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enters valid birthdate as \"11-11-1991\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11-11-1991\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.GreetingSteps.user_enters_valid_birthdate_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user selects gender as \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_gender_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user selects marital status \"Single (never married)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Single (never married)\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_marital_status(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user clicks on Next button on greeting page",
+            "match": {
+              "location": "steps.GreetingSteps.user_clicks_on_Next_button_on_greeting_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1041600,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user is navigated to \"Street Address\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Street Address\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.GreetingSteps.user_is_navigated_to_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@second"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.log(Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.log(Scenario.java:66)\r\n\tat steps.StepDefs.user_is_on_landing_page(StepDefs.java:22)\r\n\tat ✽.user is on landing page(file:///C:/Users/17033/new-eclipse-workspace/AllState/src/test/resources/features/greetingPageEntry.feature:4)\r\n",
+              "duration": 3211570700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "steps.StepDefs.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters zip code as \"22182\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"22182\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.StepDefs.user_enters_zip_code_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user unselects Auto insurance",
+            "match": {
+              "location": "steps.StepDefs.user_unselects_Auto_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 976500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user selects Home insurance and Life insurance",
+            "match": {
+              "location": "steps.StepDefs.user_selects_Home_insurance_and_Life_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on next button",
+            "match": {
+              "location": "steps.StepDefs.user_clicks_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 989000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is navigated to Get Started page",
+            "match": {
+              "location": "steps.StepDefs.user_is_navigated_to_Get_Started_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user navigates to Start page",
+            "match": {
+              "location": "steps.StepDefs.user_navigates_to_Start_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters firstname and lastname and selects suffix",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_enters_firstname_and_lastname_and_selects_suffix(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "suffix"
+                ]
+              },
+              {
+                "cells": [
+                  "Hasan",
+                  "Saran",
+                  "III"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on Next button",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_clicks_on_Next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user is navigated to greeting page with firstname \"Hasan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hasan\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.BasicEntrySteps.user_is_navigated_to_greeting_page_with_firstname(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T20:10:24.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3041310300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initializeDriverAndPages(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Enter invalid birthdate, select gender and marital status",
+        "description": "",
+        "id": "enter-information;enter-invalid-birthdate--select-gender-and-marital-status;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.attach([BLjava/lang/String;Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.attach(Scenario.java:57)\r\n\tat steps.Hooks.end(Hooks.java:39)\r\n",
+              "duration": 597653700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1004200,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user enters valid birthdate as \"11-45-1991\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11-45-1991\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.GreetingSteps.user_enters_valid_birthdate_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1011500,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user selects gender as \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_gender_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 979900,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user selects marital status \"Single (never married)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Single (never married)\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_marital_status(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user clicks on Next button on greeting page",
+            "match": {
+              "location": "steps.GreetingSteps.user_clicks_on_Next_button_on_greeting_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 991000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user sees error message displayed as \"Please provide your birthdate.\" below birthday field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please provide your birthdate.\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.GreetingSteps.user_sees_error_message_displayed_as_below_birthday_field(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@third"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.log(Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.log(Scenario.java:66)\r\n\tat steps.StepDefs.user_is_on_landing_page(StepDefs.java:22)\r\n\tat ✽.user is on landing page(file:///C:/Users/17033/new-eclipse-workspace/AllState/src/test/resources/features/greetingPageEntry.feature:4)\r\n",
+              "duration": 3851734700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "steps.StepDefs.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters zip code as \"22182\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"22182\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.StepDefs.user_enters_zip_code_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user unselects Auto insurance",
+            "match": {
+              "location": "steps.StepDefs.user_unselects_Auto_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user selects Home insurance and Life insurance",
+            "match": {
+              "location": "steps.StepDefs.user_selects_Home_insurance_and_Life_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on next button",
+            "match": {
+              "location": "steps.StepDefs.user_clicks_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is navigated to Get Started page",
+            "match": {
+              "location": "steps.StepDefs.user_is_navigated_to_Get_Started_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user navigates to Start page",
+            "match": {
+              "location": "steps.StepDefs.user_navigates_to_Start_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters firstname and lastname and selects suffix",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_enters_firstname_and_lastname_and_selects_suffix(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "suffix"
+                ]
+              },
+              {
+                "cells": [
+                  "Hasan",
+                  "Saran",
+                  "III"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on Next button",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_clicks_on_Next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user is navigated to greeting page with firstname \"Hasan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hasan\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.BasicEntrySteps.user_is_navigated_to_greeting_page_with_firstname(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T20:10:30.995Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3049417700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initializeDriverAndPages(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Enter valid birthdate, select gender and no marital status",
+        "description": "",
+        "id": "enter-information;enter-valid-birthdate--select-gender-and-no-marital-status;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.attach([BLjava/lang/String;Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.attach(Scenario.java:57)\r\n\tat steps.Hooks.end(Hooks.java:39)\r\n",
+              "duration": 592649900,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user enters valid birthdate as \"11-11-1991\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11-11-1991\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.GreetingSteps.user_enters_valid_birthdate_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user selects gender as \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_gender_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user selects marital status \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_marital_status(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user clicks on Next button on greeting page",
+            "match": {
+              "location": "steps.GreetingSteps.user_clicks_on_Next_button_on_greeting_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "user sees error message displayed as \"Please make a selection.\" below marital status field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please make a selection.\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.GreetingSteps.user_sees_error_message_displayed_as_below_marital_status_field(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fourth"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.log(Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.log(Scenario.java:66)\r\n\tat steps.StepDefs.user_is_on_landing_page(StepDefs.java:22)\r\n\tat ✽.user is on landing page(file:///C:/Users/17033/new-eclipse-workspace/AllState/src/test/resources/features/greetingPageEntry.feature:4)\r\n",
+              "duration": 1865792700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "steps.StepDefs.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters zip code as \"22182\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"22182\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.StepDefs.user_enters_zip_code_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user unselects Auto insurance",
+            "match": {
+              "location": "steps.StepDefs.user_unselects_Auto_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user selects Home insurance and Life insurance",
+            "match": {
+              "location": "steps.StepDefs.user_selects_Home_insurance_and_Life_insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on next button",
+            "match": {
+              "location": "steps.StepDefs.user_clicks_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is navigated to Get Started page",
+            "match": {
+              "location": "steps.StepDefs.user_is_navigated_to_Get_Started_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user navigates to Start page",
+            "match": {
+              "location": "steps.StepDefs.user_navigates_to_Start_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters firstname and lastname and selects suffix",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_enters_firstname_and_lastname_and_selects_suffix(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "suffix"
+                ]
+              },
+              {
+                "cells": [
+                  "Hasan",
+                  "Saran",
+                  "III"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on Next button",
+            "match": {
+              "location": "steps.BasicEntrySteps.user_clicks_on_Next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user is navigated to greeting page with firstname \"Hasan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hasan\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.BasicEntrySteps.user_is_navigated_to_greeting_page_with_firstname(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T20:10:38.501Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3029067100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initializeDriverAndPages(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 63,
+        "name": "Enter valid birthdate, select marital status and no gender",
+        "description": "",
+        "id": "enter-information;enter-valid-birthdate--select-marital-status-and-no-gender;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: io.cucumber.core.backend.TestCaseState.attach([BLjava/lang/String;Ljava/lang/String;)V\r\n\tat io.cucumber.java.Scenario.attach(Scenario.java:57)\r\n\tat steps.Hooks.end(Hooks.java:39)\r\n",
+              "duration": 920931100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 995900,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "user enters valid birthdate as \"11-11-1991\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11-11-1991\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.GreetingSteps.user_enters_valid_birthdate_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "user selects gender as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_gender_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "user selects marital status \"Single (never married)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Single (never married)\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.GreetingSteps.user_selects_marital_status(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "user clicks on Next button on greeting page",
+            "match": {
+              "location": "steps.GreetingSteps.user_clicks_on_Next_button_on_greeting_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "user sees error message displayed as \"Please select your gender.\" below gender field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please select your gender.\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.GreetingSteps.user_sees_error_message_displayed_as_below_gender_field(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fifth"
+          }
+        ]
+      }
+    ],
+    "name": "Enter Information",
+    "description": "",
+    "id": "enter-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/greetingPageEntry.feature",
+    "tags": []
+  }
+]

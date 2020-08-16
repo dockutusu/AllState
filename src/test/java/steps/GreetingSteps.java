@@ -51,22 +51,28 @@ public class GreetingSteps extends ComMethods {
 
 	@When("user sees error message displayed as {string} below marital status field")
 	public void user_sees_error_message_displayed_as_below_marital_status_field(String errorMessage) {
-		Assert.assertEquals(greetingPage.errorMessageForMaritalStatus.getText(), errorMessage);
+
+		String msg = greetingPage.errorMessageForMaritalStatus.getText();
+		Assert.assertEquals(msg, errorMessage);
 		System.out.println("marital status error message displayed");
 
 	}
 
 	@When("user sees error message displayed as {string} below gender field")
 	public void user_sees_error_message_displayed_as_below_gender_field(String errorMessage) {
-		Assert.assertEquals(greetingPage.errorMessageForGender.getText(), errorMessage);
+
+		waitForVisibility(greetingPage.errorMessageForGender);
+		String msg = greetingPage.errorMessageForGender.getText();
+		Assert.assertEquals(msg, errorMessage);
 		System.out.println("gender error message displayed");
 
 	}
 
 	@Then("user is navigated to {string} page")
 	public void user_is_navigated_to_page(String address) throws InterruptedException {
-
-		Assert.assertEquals(addressInquiryPage.addressText.getText(), address);
+		waitForVisibility(addressInquiryPage.addressText);
+		String ad = addressInquiryPage.addressText.getText();
+		Assert.assertEquals(ad, address);
 	}
 
 }

@@ -1,4 +1,4 @@
-Feature: Greeting Page Entry
+Feature: Enter Information
 
   Background: 
     Given user is on landing page
@@ -14,6 +14,7 @@ Feature: Greeting Page Entry
     And user clicks on Next button
     Then user is navigated to greeting page with firstname "Hasan"
 
+@second
   Scenario Outline: Enter valid birthdate, select gender and marital status
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"
@@ -25,6 +26,7 @@ Feature: Greeting Page Entry
       | dateOfBirth | Gender | maritalStatus          | Address        |
       | 11-11-1991  | Male   | Single (never married) | Street Address |
 
+@third
   Scenario Outline: Enter invalid birthdate, select gender and marital status
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"
@@ -36,6 +38,7 @@ Feature: Greeting Page Entry
       | dateOfBirth | Gender | maritalStatus          | errorMessage                   |
       | 11-45-1991  | Male   | Single (never married) | Please provide your birthdate. |
 
+@fourth
   Scenario Outline: Enter valid birthdate, select gender and no marital status
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"
@@ -47,6 +50,7 @@ Feature: Greeting Page Entry
       | dateOfBirth | Gender | maritalStatus | errorMessage             |
       | 11-11-1991  | Male   |               | Please make a selection. |
 
+@fifth
   Scenario Outline: Enter valid birthdate, select marital status and no gender
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"

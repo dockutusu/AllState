@@ -14,6 +14,12 @@
 
 	<dependencies>
 
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>5.6.0</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -21,6 +27,15 @@
 			<version>7.1.0</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>5.7.0</version>
+			<scope>test</scope>
+		</dependency>
+
 
 
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
@@ -99,7 +114,7 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<includes>
-						<include>**/*TestRunner.java</include>
+						<include>**/*SmokeRunner.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
