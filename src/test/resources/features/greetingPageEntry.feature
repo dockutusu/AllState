@@ -14,7 +14,7 @@ Feature: Enter Information
     And user clicks on Next button
     Then user is navigated to greeting page with firstname "Hasan"
 
-@second
+  @second
   Scenario Outline: Enter valid birthdate, select gender and marital status
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"
@@ -26,7 +26,6 @@ Feature: Enter Information
       | dateOfBirth | Gender | maritalStatus          | Address        |
       | 11-11-1991  | Male   | Single (never married) | Street Address |
 
-@third
   Scenario Outline: Enter invalid birthdate, select gender and marital status
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"
@@ -38,7 +37,6 @@ Feature: Enter Information
       | dateOfBirth | Gender | maritalStatus          | errorMessage                   |
       | 11-45-1991  | Male   | Single (never married) | Please provide your birthdate. |
 
-@fourth
   Scenario Outline: Enter valid birthdate, select gender and no marital status
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"
@@ -50,7 +48,6 @@ Feature: Enter Information
       | dateOfBirth | Gender | maritalStatus | errorMessage             |
       | 11-11-1991  | Male   |               | Please make a selection. |
 
-@fifth
   Scenario Outline: Enter valid birthdate, select marital status and no gender
     When user enters valid birthdate as "<dateOfBirth>"
     And user selects gender as "<Gender>"

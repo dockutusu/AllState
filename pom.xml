@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
-			<version>6.2.1</version>
+			<version>6.0.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
-			<version>6.2.1</version>
+			<version>6.0.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -86,7 +86,7 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>6.1.1</version>
+			<version>6.0.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -94,7 +94,7 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>6.1.1</version>
+			<version>6.0.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -114,8 +114,8 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<includes>
-						<include>**/*SmokeRunner.java</include>
-					</includes>
+<!-- 						<include>**/*SmokeParallelRunner.java</include>
+ -->					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
