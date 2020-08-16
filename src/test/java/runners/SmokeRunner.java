@@ -1,11 +1,9 @@
 package runners;
 
 import org.junit.runner.RunWith;
-import org.testng.annotations.DataProvider;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith (Cucumber.class)
 @CucumberOptions (
@@ -15,7 +13,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 				"pretty",
 				"json:target/cucumber.json",
 				"html:target/cucumber-default-report"},
-		monochrome = true
+		monochrome = true,
+		tags = "@second"
 
 		)
 public class SmokeRunner {
