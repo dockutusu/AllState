@@ -45,6 +45,8 @@ public class StepDefs extends ComMethods {
 	public void user_clicks_on_next_button() {
 		click(landingPage.next);
 		System.out.println("next button");
+		
+		System.out.println("Jenkins Exp");
 
 	}
 
